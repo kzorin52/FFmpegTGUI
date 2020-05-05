@@ -61,11 +61,21 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>D:\Downloads\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Downloads\UIs\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkUI">
+      <HintPath>D:\Downloads\UIs\DarkUI.dll</HintPath>
+    </Reference>
+    <Reference Include="EgoldsUI">
+      <HintPath>D:\Downloads\UIs\EgoldsUI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>D:\Downloads\Guna.UI.dll</HintPath>
+      <HintPath>D:\Downloads\UIs\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\Downloads\UIs\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin">
       <HintPath>D:\Downloads\UIs\MaterialSkin.dll</HintPath>
@@ -90,6 +100,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="VisualPlus">
+      <HintPath>D:\Downloads\UIs\VisualPlus.dll</HintPath>
+    </Reference>
     <Reference Include="XanderUI">
       <HintPath>D:\Downloads\UIs\XanderUI.dll</HintPath>
     </Reference>
