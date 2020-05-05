@@ -92,9 +92,6 @@
             this.threadsval = new Guna.UI.WinForms.GunaNumeric();
             this.probeval = new Guna.UI.WinForms.GunaNumeric();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
-            this.speedup = new Guna.UI.WinForms.GunaNumeric();
-            this.gunaLabel14 = new Guna.UI.WinForms.GunaLabel();
-            this.bunifuFlatButton9 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
             this.FilesForSplit = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
@@ -1455,7 +1452,6 @@
             this.gunaPanel1.Controls.Add(this.probeval);
             this.gunaPanel1.Controls.Add(this.abtr);
             this.gunaPanel1.Controls.Add(this.bunifuFlatButton6);
-            this.gunaPanel1.Controls.Add(this.speedup);
             this.gunaPanel1.Controls.Add(this.passval);
             this.gunaPanel1.Controls.Add(this.bunifuFlatButton5);
             this.gunaPanel1.Controls.Add(this.gunaComboBox2);
@@ -1464,9 +1460,7 @@
             this.gunaPanel1.Controls.Add(this.gunaComboBox1);
             this.gunaPanel1.Controls.Add(this.gunaLabel3);
             this.gunaPanel1.Controls.Add(this.gunaLabel4);
-            this.gunaPanel1.Controls.Add(this.gunaLabel14);
             this.gunaPanel1.Controls.Add(this.gunaLabel10);
-            this.gunaPanel1.Controls.Add(this.bunifuFlatButton9);
             this.gunaPanel1.Controls.Add(this.gunaLabel8);
             this.gunaPanel1.Controls.Add(this.passbtn);
             this.gunaPanel1.Controls.Add(this.gunaLabel7);
@@ -1490,74 +1484,6 @@
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(930, 242);
             this.gunaPanel1.TabIndex = 17;
-            // 
-            // speedup
-            // 
-            this.speedup.BackColor = System.Drawing.Color.Transparent;
-            this.speedup.BaseColor = System.Drawing.Color.White;
-            this.speedup.BorderColor = System.Drawing.Color.Silver;
-            this.speedup.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
-            this.speedup.ButtonForeColor = System.Drawing.Color.Black;
-            this.speedup.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.speedup.ForeColor = System.Drawing.Color.Black;
-            this.speedup.Location = new System.Drawing.Point(560, 202);
-            this.speedup.Maximum = ((long)(9999999));
-            this.speedup.Minimum = ((long)(0));
-            this.speedup.Name = "speedup";
-            this.speedup.Radius = 3;
-            this.speedup.Size = new System.Drawing.Size(68, 30);
-            this.speedup.TabIndex = 16;
-            this.speedup.Value = ((long)(1));
-            // 
-            // gunaLabel14
-            // 
-            this.gunaLabel14.AutoSize = true;
-            this.gunaLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel14.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel14.Location = new System.Drawing.Point(481, 210);
-            this.gunaLabel14.Name = "gunaLabel14";
-            this.gunaLabel14.Size = new System.Drawing.Size(73, 17);
-            this.gunaLabel14.TabIndex = 10;
-            this.gunaLabel14.Text = "Speed up:";
-            this.gunaLabel14.Click += new System.EventHandler(this.gunaLabel2_Click);
-            this.gunaLabel14.DoubleClick += new System.EventHandler(this.gunaLabel2_DoubleClick);
-            // 
-            // bunifuFlatButton9
-            // 
-            this.bunifuFlatButton9.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton9.BorderRadius = 0;
-            this.bunifuFlatButton9.ButtonText = "OK";
-            this.bunifuFlatButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton9.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton9.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton9.Iconimage = null;
-            this.bunifuFlatButton9.Iconimage_right = null;
-            this.bunifuFlatButton9.Iconimage_right_Selected = null;
-            this.bunifuFlatButton9.Iconimage_Selected = null;
-            this.bunifuFlatButton9.IconMarginLeft = 0;
-            this.bunifuFlatButton9.IconMarginRight = 0;
-            this.bunifuFlatButton9.IconRightVisible = true;
-            this.bunifuFlatButton9.IconRightZoom = 0D;
-            this.bunifuFlatButton9.IconVisible = true;
-            this.bunifuFlatButton9.IconZoom = 90D;
-            this.bunifuFlatButton9.IsTab = false;
-            this.bunifuFlatButton9.Location = new System.Drawing.Point(634, 204);
-            this.bunifuFlatButton9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton9.Name = "bunifuFlatButton9";
-            this.bunifuFlatButton9.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton9.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton9.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton9.selected = false;
-            this.bunifuFlatButton9.Size = new System.Drawing.Size(25, 23);
-            this.bunifuFlatButton9.TabIndex = 10;
-            this.bunifuFlatButton9.Text = "OK";
-            this.bunifuFlatButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton9.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton9.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
-            this.bunifuFlatButton9.Click += new System.EventHandler(this.speedupbtn_Click);
             // 
             // xuiCustomGroupbox1
             // 
@@ -2026,9 +1952,6 @@
         private Guna.UI.WinForms.GunaNumeric probeval;
         private Guna.UI.WinForms.GunaNumeric threadsval;
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
-        private Guna.UI.WinForms.GunaNumeric speedup;
-        private Guna.UI.WinForms.GunaLabel gunaLabel14;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton9;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox1;
         private System.Windows.Forms.OpenFileDialog FilesForSplit;
         private System.Windows.Forms.SaveFileDialog saveFileDialog2;
