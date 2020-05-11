@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -18,11 +19,11 @@ namespace FFmpegGUI
         {
             InitializeComponent();
             openFileDialog1.Filter = "Video files(*.*)|*.*";
-            openFileDialog1.Filter = "Music files(*.*)|*.*";
-            saveFileDialog1.Filter = "Video files|*.*";
-            openFileDialog2.Filter = "FFpresets|*.ffpreset";
-            openFileDialog3.Filter = "FFpresets|*.ffpreset";
-            saveFileDialog2.Filter = "FFpresets|*.ffpreset";
+            openFileDialog4.Filter = "Music files(*.*)|*.*";
+            saveFileDialog1.Filter = "Video files(*.*)|*.*";
+            openFileDialog2.Filter = "FFpresets|*.ffpreset|All files(*.*)|*.*";
+            openFileDialog3.Filter = "FFpresets|*.ffpreset|All files(*.*)|*.*";
+            saveFileDialog2.Filter = "MP4 Files(*.mp4)|*.mp4|All files(*.*)|*.*";
 
             TBcommand.Text = icommand.ToString();
             if (filename.Contains("NIGHTLY"))
@@ -353,7 +354,7 @@ namespace FFmpegGUI
             zvuk = openFileDialog4.FileName;
 
             // -i "+ bunifuMaterialTextbox1.Text +" -i "+ zvuk +" -vcodec copy -acodec copy -map 0:0 -map 1:0" +bunifuMaterialTextbox2.Text
-            icommand.Append("-i " + bunifuMaterialTextbox1.Text + " -i " + zvuk + " -vcodec copy -acodec copy -map 0:0 -map 1:0 " + bunifuMaterialTextbox2.Text);
+            icommand.Append("-i " + bunifuMaterialTextbox1.Text + " -i \"" + zvuk + "\" -vcodec copy -acodec copy -map 0:0 -map 1:0 " + bunifuMaterialTextbox2.Text);
             TBcommand.Text = icommand.ToString();
         }
 
@@ -367,8 +368,72 @@ namespace FFmpegGUI
             //ffmpeg -ss 00:00:00 -t 00:01:14 -i  "+bunifuMaterialTextbox1.Text+" -vcodec copy -acodec copy "+bunifuMaterialTextbox2.Text
             icommand.Clear();
 
-            icommand.Append("-ss 00:00:00 -t 00:01:14 -i  " + bunifuMaterialTextbox1.Text + " -vcodec copy -acodec copy " + bunifuMaterialTextbox2.Text);
+            icommand.Append("-ss "+nachalo.Text+" -t "+konec.Text+" -i  " + bunifuMaterialTextbox1.Text + " -vcodec copy -acodec copy " + bunifuMaterialTextbox2.Text);
             TBcommand.Text = icommand.ToString();
+        }
+
+        private void bunifuFlatButton12_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            icommand.Clear();
+            //-i html.mp4 -lavfi "setpts=0.033*PTS" -r 30  output-x30.mp4
+            double z = 1.0 / speedup2.Value;
+
+            icommand.Append(" -i " + bunifuMaterialTextbox1.Text + " -lavfi \"setpts=" + z + "*PTS\" -r 30 " + bunifuMaterialTextbox2.Text);
+            TBcommand.Text = icommand.ToString();
+        }
+
+        private void bunifuFlatButton11_Click_1(object sender, EventArgs e)
+        {
+            FilesForSplit.Multiselect = true;
+            FilesForSplit.Title = "Выберите файлы";
+            FilesForSplit.InitialDirectory = @"D:\";
+            FilesForSplit.Filter =
+    "Videos (*.mp4;*.avi;*.mpg)|*.mp4;*.avi;*.mpg|" +
+    "All files (*.*)|*.*";
+            FilesForSplit.ShowDialog();
+        }
+
+        private void bunifuFlatButton10_Click_1(object sender, EventArgs e)
+        {
+            try
+            {  // имя каждой директории добавляем в новую строку файла.
+                using (StreamWriter sw1 = new StreamWriter("files.txt"))
+                {
+                    foreach (string dir in FilesForSplit.FileNames)
+                    {
+                        sw1.WriteLine("file '" + dir + "'");
+
+                    }
+                }
+                if (saveFileDialog2.ShowDialog() == DialogResult.Cancel)
+                {
+                    return;
+                }
+                // получаем выбранный файл
+                string output = saveFileDialog2.FileName;
+               
+                icommand.Append(" -f concat -safe 0 -i files.txt -c copy " + output + " -acodec copy -vcodec copy");
+                TBcommand.Text = icommand.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+  
+
+        private void bunifuSwitch1_Click(object sender, EventArgs e)
+        {
+            if(bunifuSwitch1.Value)
+            {
+                this.BackgroundImage = FFmpegTGUI.Properties.Resources.neuro_texture_lava;
+            }
+            else
+            {
+                this.BackgroundImage = null;
+            }
         }
     }
 }

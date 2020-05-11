@@ -51,7 +51,6 @@
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
-            this.c_copy = new Bunifu.Framework.UI.BunifuFlatButton();
             this.vcodeccopy = new Bunifu.Framework.UI.BunifuFlatButton();
             this.acodeccopy = new Bunifu.Framework.UI.BunifuFlatButton();
             this.scodeccopy = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -93,8 +92,13 @@
             this.probeval = new Guna.UI.WinForms.GunaNumeric();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
-            this.FilesForSplit = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel17 = new Guna.UI.WinForms.GunaLabel();
+            this.konec = new EgoldsUI.EgoldsGoogleTextBox();
+            this.nachalo = new EgoldsUI.EgoldsGoogleTextBox();
+            this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.gunaLabel16 = new Guna.UI.WinForms.GunaLabel();
@@ -104,18 +108,16 @@
             this.speedup2 = new Guna.UI.WinForms.GunaNumeric();
             this.bunifuFlatButton12 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.gunaLabel15 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
+            this.FilesForSplit = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog4 = new System.Windows.Forms.OpenFileDialog();
-            this.egoldsGoogleTextBox1 = new EgoldsUI.EgoldsGoogleTextBox();
-            this.egoldsGoogleTextBox2 = new EgoldsUI.EgoldsGoogleTextBox();
-            this.gunaLabel17 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
-            this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.bunifuSwitch1 = new Bunifu.Framework.UI.BunifuSwitch();
+            this.xuiCustomGroupbox2 = new XanderUI.XUICustomGroupbox();
             this.gunaLinePanel1.SuspendLayout();
             this.xuiFlatMenuStrip1.SuspendLayout();
             this.gunaPanel1.SuspendLayout();
             this.xuiCustomGroupbox1.SuspendLayout();
+            this.xuiCustomGroupbox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaLinePanel1
@@ -141,9 +143,9 @@
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(255)))), ((int)(((byte)(140)))));
             this.gunaLabel2.Location = new System.Drawing.Point(3, 6);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(81, 17);
+            this.gunaLabel2.Size = new System.Drawing.Size(86, 17);
             this.gunaLabel2.TabIndex = 10;
-            this.gunaLabel2.Text = "FFmpegGUI";
+            this.gunaLabel2.Text = "FFmpegTGUI";
             this.gunaLabel2.Click += new System.EventHandler(this.gunaLabel2_Click);
             this.gunaLabel2.DoubleClick += new System.EventHandler(this.gunaLabel2_DoubleClick);
             // 
@@ -489,41 +491,6 @@
             this.gunaLabel4.Click += new System.EventHandler(this.gunaLabel2_Click);
             this.gunaLabel4.DoubleClick += new System.EventHandler(this.gunaLabel2_DoubleClick);
             // 
-            // c_copy
-            // 
-            this.c_copy.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.c_copy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.c_copy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.c_copy.BorderRadius = 0;
-            this.c_copy.ButtonText = "-c copy";
-            this.c_copy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.c_copy.DisabledColor = System.Drawing.Color.Gray;
-            this.c_copy.Iconcolor = System.Drawing.Color.Transparent;
-            this.c_copy.Iconimage = null;
-            this.c_copy.Iconimage_right = null;
-            this.c_copy.Iconimage_right_Selected = null;
-            this.c_copy.Iconimage_Selected = null;
-            this.c_copy.IconMarginLeft = 0;
-            this.c_copy.IconMarginRight = 0;
-            this.c_copy.IconRightVisible = true;
-            this.c_copy.IconRightZoom = 0D;
-            this.c_copy.IconVisible = true;
-            this.c_copy.IconZoom = 90D;
-            this.c_copy.IsTab = false;
-            this.c_copy.Location = new System.Drawing.Point(493, 10);
-            this.c_copy.Name = "c_copy";
-            this.c_copy.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.c_copy.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.c_copy.OnHoverTextColor = System.Drawing.Color.White;
-            this.c_copy.selected = false;
-            this.c_copy.Size = new System.Drawing.Size(135, 25);
-            this.c_copy.TabIndex = 10;
-            this.c_copy.Text = "-c copy";
-            this.c_copy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.c_copy.Textcolor = System.Drawing.Color.White;
-            this.c_copy.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
-            this.c_copy.Click += new System.EventHandler(this.ccopy_Click);
-            // 
             // vcodeccopy
             // 
             this.vcodeccopy.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
@@ -768,7 +735,7 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(255)))), ((int)(((byte)(140)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(56, 56);
+            this.gunaLabel1.Location = new System.Drawing.Point(97, 56);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(45, 17);
             this.gunaLabel1.TabIndex = 10;
@@ -782,7 +749,7 @@
             this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(255)))), ((int)(((byte)(140)))));
-            this.gunaLabel6.Location = new System.Drawing.Point(56, 89);
+            this.gunaLabel6.Location = new System.Drawing.Point(97, 89);
             this.gunaLabel6.Name = "gunaLabel6";
             this.gunaLabel6.Size = new System.Drawing.Size(58, 17);
             this.gunaLabel6.TabIndex = 10;
@@ -1268,7 +1235,7 @@
             this.gunaLabel13.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel13.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel13.Location = new System.Drawing.Point(271, 80);
+            this.gunaLabel13.Location = new System.Drawing.Point(268, 89);
             this.gunaLabel13.Name = "gunaLabel13";
             this.gunaLabel13.Size = new System.Drawing.Size(36, 17);
             this.gunaLabel13.TabIndex = 10;
@@ -1478,7 +1445,6 @@
             this.gunaPanel1.Controls.Add(this.absf);
             this.gunaPanel1.Controls.Add(this.acodeccopy);
             this.gunaPanel1.Controls.Add(this.scodeccopy);
-            this.gunaPanel1.Controls.Add(this.c_copy);
             this.gunaPanel1.Controls.Add(this.vcodeccopy);
             this.gunaPanel1.Location = new System.Drawing.Point(40, 113);
             this.gunaPanel1.Name = "gunaPanel1";
@@ -1487,14 +1453,15 @@
             // 
             // xuiCustomGroupbox1
             // 
+            this.xuiCustomGroupbox1.BackColor = System.Drawing.Color.Transparent;
             this.xuiCustomGroupbox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
             this.xuiCustomGroupbox1.BorderWidth = 1;
             this.xuiCustomGroupbox1.Controls.Add(this.guna2VSeparator1);
             this.xuiCustomGroupbox1.Controls.Add(this.bunifuFlatButton14);
             this.xuiCustomGroupbox1.Controls.Add(this.gunaLabel18);
             this.xuiCustomGroupbox1.Controls.Add(this.gunaLabel17);
-            this.xuiCustomGroupbox1.Controls.Add(this.egoldsGoogleTextBox2);
-            this.xuiCustomGroupbox1.Controls.Add(this.egoldsGoogleTextBox1);
+            this.xuiCustomGroupbox1.Controls.Add(this.konec);
+            this.xuiCustomGroupbox1.Controls.Add(this.nachalo);
             this.xuiCustomGroupbox1.Controls.Add(this.guna2Separator3);
             this.xuiCustomGroupbox1.Controls.Add(this.guna2Separator2);
             this.xuiCustomGroupbox1.Controls.Add(this.guna2Separator1);
@@ -1515,9 +1482,119 @@
             this.xuiCustomGroupbox1.Text = "Мои видосики";
             this.xuiCustomGroupbox1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
             // 
-            // FilesForSplit
+            // guna2VSeparator1
             // 
-            this.FilesForSplit.FileName = "openFileDialog4";
+            this.guna2VSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2VSeparator1.Location = new System.Drawing.Point(210, 8);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 149);
+            this.guna2VSeparator1.TabIndex = 21;
+            // 
+            // bunifuFlatButton14
+            // 
+            this.bunifuFlatButton14.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuFlatButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton14.BorderRadius = 0;
+            this.bunifuFlatButton14.ButtonText = "Обрезать";
+            this.bunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton14.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton14.Iconimage = null;
+            this.bunifuFlatButton14.Iconimage_right = null;
+            this.bunifuFlatButton14.Iconimage_right_Selected = null;
+            this.bunifuFlatButton14.Iconimage_Selected = null;
+            this.bunifuFlatButton14.IconMarginLeft = 0;
+            this.bunifuFlatButton14.IconMarginRight = 0;
+            this.bunifuFlatButton14.IconRightVisible = true;
+            this.bunifuFlatButton14.IconRightZoom = 0D;
+            this.bunifuFlatButton14.IconVisible = true;
+            this.bunifuFlatButton14.IconZoom = 90D;
+            this.bunifuFlatButton14.IsTab = false;
+            this.bunifuFlatButton14.Location = new System.Drawing.Point(286, 103);
+            this.bunifuFlatButton14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuFlatButton14.Name = "bunifuFlatButton14";
+            this.bunifuFlatButton14.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton14.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton14.selected = false;
+            this.bunifuFlatButton14.Size = new System.Drawing.Size(85, 34);
+            this.bunifuFlatButton14.TabIndex = 38;
+            this.bunifuFlatButton14.Text = "Обрезать";
+            this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton14.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
+            this.bunifuFlatButton14.Click += new System.EventHandler(this.bunifuFlatButton14_Click);
+            // 
+            // gunaLabel18
+            // 
+            this.gunaLabel18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.gunaLabel18.AutoSize = true;
+            this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel18.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel18.Location = new System.Drawing.Point(219, 72);
+            this.gunaLabel18.Name = "gunaLabel18";
+            this.gunaLabel18.Size = new System.Drawing.Size(53, 17);
+            this.gunaLabel18.TabIndex = 37;
+            this.gunaLabel18.Text = "Конец:";
+            // 
+            // gunaLabel17
+            // 
+            this.gunaLabel17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.gunaLabel17.AutoSize = true;
+            this.gunaLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel17.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel17.Location = new System.Drawing.Point(219, 18);
+            this.gunaLabel17.Name = "gunaLabel17";
+            this.gunaLabel17.Size = new System.Drawing.Size(61, 17);
+            this.gunaLabel17.TabIndex = 36;
+            this.gunaLabel17.Text = "Начало:";
+            // 
+            // konec
+            // 
+            this.konec.BackColor = System.Drawing.Color.White;
+            this.konec.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.konec.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.konec.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.konec.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.konec.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.konec.ForeColor = System.Drawing.Color.Black;
+            this.konec.Location = new System.Drawing.Point(286, 56);
+            this.konec.Name = "konec";
+            this.konec.Size = new System.Drawing.Size(85, 40);
+            this.konec.TabIndex = 35;
+            this.konec.TextInput = "";
+            this.konec.TextPreview = "00:05:00";
+            this.konec.UseSystemPasswordChar = false;
+            // 
+            // nachalo
+            // 
+            this.nachalo.BackColor = System.Drawing.Color.White;
+            this.nachalo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.nachalo.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.nachalo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nachalo.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.nachalo.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.nachalo.ForeColor = System.Drawing.Color.Black;
+            this.nachalo.Location = new System.Drawing.Point(286, 8);
+            this.nachalo.Name = "nachalo";
+            this.nachalo.Size = new System.Drawing.Size(85, 40);
+            this.nachalo.TabIndex = 20;
+            this.nachalo.TextInput = "";
+            this.nachalo.TextPreview = "00:00:00";
+            this.nachalo.UseSystemPasswordChar = false;
+            // 
+            // guna2Separator3
+            // 
+            this.guna2Separator3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guna2Separator3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Separator3.Location = new System.Drawing.Point(30, 107);
+            this.guna2Separator3.Name = "guna2Separator3";
+            this.guna2Separator3.Size = new System.Drawing.Size(174, 10);
+            this.guna2Separator3.TabIndex = 34;
             // 
             // guna2Separator2
             // 
@@ -1620,6 +1697,7 @@
             this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
+            this.bunifuFlatButton11.Click += new System.EventHandler(this.bunifuFlatButton11_Click_1);
             // 
             // bunifuFlatButton10
             // 
@@ -1655,6 +1733,7 @@
             this.bunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton10.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
+            this.bunifuFlatButton10.Click += new System.EventHandler(this.bunifuFlatButton10_Click_1);
             // 
             // speedup2
             // 
@@ -1710,6 +1789,7 @@
             this.bunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton12.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton12.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
+            this.bunifuFlatButton12.Click += new System.EventHandler(this.bunifuFlatButton12_Click);
             // 
             // gunaLabel15
             // 
@@ -1725,123 +1805,44 @@
             this.gunaLabel15.Text = "Speed up:";
             this.gunaLabel15.Click += new System.EventHandler(this.gunaLabel15_Click);
             // 
-            // guna2Separator3
+            // FilesForSplit
             // 
-            this.guna2Separator3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2Separator3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Separator3.Location = new System.Drawing.Point(30, 107);
-            this.guna2Separator3.Name = "guna2Separator3";
-            this.guna2Separator3.Size = new System.Drawing.Size(174, 10);
-            this.guna2Separator3.TabIndex = 34;
+            this.FilesForSplit.FileName = "openFileDialog4";
             // 
             // openFileDialog4
             // 
             this.openFileDialog4.FileName = "openFileDialog1";
             // 
-            // egoldsGoogleTextBox1
+            // bunifuSwitch1
             // 
-            this.egoldsGoogleTextBox1.BackColor = System.Drawing.Color.White;
-            this.egoldsGoogleTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.egoldsGoogleTextBox1.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.egoldsGoogleTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.egoldsGoogleTextBox1.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.egoldsGoogleTextBox1.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.egoldsGoogleTextBox1.ForeColor = System.Drawing.Color.Black;
-            this.egoldsGoogleTextBox1.Location = new System.Drawing.Point(286, 10);
-            this.egoldsGoogleTextBox1.Name = "egoldsGoogleTextBox1";
-            this.egoldsGoogleTextBox1.Size = new System.Drawing.Size(85, 40);
-            this.egoldsGoogleTextBox1.TabIndex = 20;
-            this.egoldsGoogleTextBox1.TextInput = "";
-            this.egoldsGoogleTextBox1.TextPreview = "00:00:00";
-            this.egoldsGoogleTextBox1.UseSystemPasswordChar = false;
+            this.bunifuSwitch1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuSwitch1.BorderRadius = 0;
+            this.bunifuSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuSwitch1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuSwitch1.Location = new System.Drawing.Point(6, 17);
+            this.bunifuSwitch1.Name = "bunifuSwitch1";
+            this.bunifuSwitch1.Oncolor = System.Drawing.Color.DarkSalmon;
+            this.bunifuSwitch1.Onoffcolor = System.Drawing.Color.SeaGreen;
+            this.bunifuSwitch1.Size = new System.Drawing.Size(51, 19);
+            this.bunifuSwitch1.TabIndex = 17;
+            this.bunifuSwitch1.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuSwitch1.Value = false;
+            this.bunifuSwitch1.Click += new System.EventHandler(this.bunifuSwitch1_Click);
             // 
-            // egoldsGoogleTextBox2
+            // xuiCustomGroupbox2
             // 
-            this.egoldsGoogleTextBox2.BackColor = System.Drawing.Color.White;
-            this.egoldsGoogleTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.egoldsGoogleTextBox2.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.egoldsGoogleTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.egoldsGoogleTextBox2.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.egoldsGoogleTextBox2.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.egoldsGoogleTextBox2.ForeColor = System.Drawing.Color.Black;
-            this.egoldsGoogleTextBox2.Location = new System.Drawing.Point(286, 56);
-            this.egoldsGoogleTextBox2.Name = "egoldsGoogleTextBox2";
-            this.egoldsGoogleTextBox2.Size = new System.Drawing.Size(85, 40);
-            this.egoldsGoogleTextBox2.TabIndex = 35;
-            this.egoldsGoogleTextBox2.TextInput = "";
-            this.egoldsGoogleTextBox2.TextPreview = "00:05:00";
-            this.egoldsGoogleTextBox2.UseSystemPasswordChar = false;
-            // 
-            // gunaLabel17
-            // 
-            this.gunaLabel17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.gunaLabel17.AutoSize = true;
-            this.gunaLabel17.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel17.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel17.Location = new System.Drawing.Point(219, 18);
-            this.gunaLabel17.Name = "gunaLabel17";
-            this.gunaLabel17.Size = new System.Drawing.Size(61, 17);
-            this.gunaLabel17.TabIndex = 36;
-            this.gunaLabel17.Text = "Начало:";
-            // 
-            // gunaLabel18
-            // 
-            this.gunaLabel18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.gunaLabel18.AutoSize = true;
-            this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel18.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel18.Location = new System.Drawing.Point(219, 72);
-            this.gunaLabel18.Name = "gunaLabel18";
-            this.gunaLabel18.Size = new System.Drawing.Size(53, 17);
-            this.gunaLabel18.TabIndex = 37;
-            this.gunaLabel18.Text = "Конец:";
-            // 
-            // bunifuFlatButton14
-            // 
-            this.bunifuFlatButton14.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton14.BorderRadius = 0;
-            this.bunifuFlatButton14.ButtonText = "Обрезать";
-            this.bunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton14.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.Iconimage = null;
-            this.bunifuFlatButton14.Iconimage_right = null;
-            this.bunifuFlatButton14.Iconimage_right_Selected = null;
-            this.bunifuFlatButton14.Iconimage_Selected = null;
-            this.bunifuFlatButton14.IconMarginLeft = 0;
-            this.bunifuFlatButton14.IconMarginRight = 0;
-            this.bunifuFlatButton14.IconRightVisible = true;
-            this.bunifuFlatButton14.IconRightZoom = 0D;
-            this.bunifuFlatButton14.IconVisible = true;
-            this.bunifuFlatButton14.IconZoom = 90D;
-            this.bunifuFlatButton14.IsTab = false;
-            this.bunifuFlatButton14.Location = new System.Drawing.Point(286, 103);
-            this.bunifuFlatButton14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton14.Name = "bunifuFlatButton14";
-            this.bunifuFlatButton14.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton14.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.selected = false;
-            this.bunifuFlatButton14.Size = new System.Drawing.Size(85, 34);
-            this.bunifuFlatButton14.TabIndex = 38;
-            this.bunifuFlatButton14.Text = "Обрезать";
-            this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton14.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
-            this.bunifuFlatButton14.Click += new System.EventHandler(this.bunifuFlatButton14_Click);
-            // 
-            // guna2VSeparator1
-            // 
-            this.guna2VSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2VSeparator1.Location = new System.Drawing.Point(210, 8);
-            this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 149);
-            this.guna2VSeparator1.TabIndex = 21;
+            this.xuiCustomGroupbox2.BackColor = System.Drawing.Color.Transparent;
+            this.xuiCustomGroupbox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
+            this.xuiCustomGroupbox2.BorderWidth = 1;
+            this.xuiCustomGroupbox2.Controls.Add(this.bunifuSwitch1);
+            this.xuiCustomGroupbox2.Location = new System.Drawing.Point(0, 50);
+            this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
+            this.xuiCustomGroupbox2.ShowText = true;
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(67, 46);
+            this.xuiCustomGroupbox2.TabIndex = 18;
+            this.xuiCustomGroupbox2.TabStop = false;
+            this.xuiCustomGroupbox2.Text = "CE";
+            this.xuiCustomGroupbox2.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
             // 
             // Form1
             // 
@@ -1850,6 +1851,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1011, 640);
+            this.Controls.Add(this.xuiCustomGroupbox2);
             this.Controls.Add(this.xuiCustomGroupbox1);
             this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.bunifuMaterialTextbox2);
@@ -1874,7 +1876,7 @@
             this.MinimumSize = new System.Drawing.Size(100, 100);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FFmpegGUI";
+            this.Text = "FFmpegTGUI";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gunaLinePanel1.ResumeLayout(false);
             this.gunaLinePanel1.PerformLayout();
@@ -1884,6 +1886,8 @@
             this.gunaPanel1.PerformLayout();
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
+            this.xuiCustomGroupbox2.ResumeLayout(false);
+            this.xuiCustomGroupbox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1914,7 +1918,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton acodeccopy;
         private Bunifu.Framework.UI.BunifuFlatButton scodeccopy;
         private Bunifu.Framework.UI.BunifuFlatButton vcodeccopy;
-        private Bunifu.Framework.UI.BunifuFlatButton c_copy;
         private Guna.UI.WinForms.GunaLabel gunaLabel5;
         private Bunifu.Framework.UI.BunifuFlatButton anbtn;
         private Bunifu.Framework.UI.BunifuFlatButton vnbtn;
@@ -1966,12 +1969,14 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel15;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private System.Windows.Forms.OpenFileDialog openFileDialog4;
-        private EgoldsUI.EgoldsGoogleTextBox egoldsGoogleTextBox2;
-        private EgoldsUI.EgoldsGoogleTextBox egoldsGoogleTextBox1;
+        private EgoldsUI.EgoldsGoogleTextBox konec;
+        private EgoldsUI.EgoldsGoogleTextBox nachalo;
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton14;
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
         private Guna.UI.WinForms.GunaLabel gunaLabel17;
+        private XanderUI.XUICustomGroupbox xuiCustomGroupbox2;
+        private Bunifu.Framework.UI.BunifuSwitch bunifuSwitch1;
     }
 }
 
