@@ -1,9 +1,10 @@
-﻿using System;
+﻿using FFmpegTGUI;
+using System;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
+using static FFmpegTGUI.Alert;
 
 namespace FFmpegGUI
 {
@@ -15,9 +16,16 @@ namespace FFmpegGUI
         private string input;
         private string saveoutput;
         private readonly StringBuilder icommand = new StringBuilder("");
+        private bool isCEtrue;
         public Form1()
         {
             InitializeComponent();
+            isCEtruemethod();
+
+            // MessageBox.Show(file.ReadTextFromFile("config.ini"));
+
+            CESlider();
+
             openFileDialog1.Filter = "Video files(*.*)|*.*";
             openFileDialog4.Filter = "Music files(*.*)|*.*";
             saveFileDialog1.Filter = "Video files(*.*)|*.*";
@@ -26,6 +34,7 @@ namespace FFmpegGUI
             saveFileDialog2.Filter = "MP4 Files(*.mp4)|*.mp4|All files(*.*)|*.*";
 
             TBcommand.Text = icommand.ToString();
+
             if (filename.Contains("NIGHTLY"))
             {
                 gunaLabel11.Text = "FFmpeg NIGHTLY";
@@ -42,9 +51,38 @@ namespace FFmpegGUI
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void isCEtruemethod()
         {
 
+            xFilewriter.FileWriter file = new xFilewriter.FileWriter();
+            isCEtrue = bunifuSwitch1.Value;
+            if (!File.Exists("config.ini"))
+            {
+                file.CreateFile("config.ini");
+            }
+            if (file.ReadTextFromFile("config.ini").Contains("true"))
+            {
+                isCEtrue = true;
+                bunifuSwitch1.Value = true;
+            }
+            else
+            {
+                isCEtrue = false;
+                bunifuSwitch1.Value = false;
+            }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //guna2Transition1.Show(TBcommand);
+            xuiObjectAnimator1.FormAnimate(this, XanderUI.XUIObjectAnimator.FormAnimation.FadeIn, 300);
+
+
+        }
+        public void AlertNotify(string message, AlertType type)
+        {
+            Alert alert = new Alert();
+            alert.setAlert(message, type);
+            Focus();
         }
 
         private void lolToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,26 +103,54 @@ namespace FFmpegGUI
             }
             if (filename.Contains("STATIC"))
             {
-                gunaLabel11.Text = "FFmpeg 4.2.2";
+                gunaLabel11.Text = "FFmpeg 4.2.3";
             }
             if (filename.Contains("20190805"))
             {
                 gunaLabel11.Text = "FFmpeg 20190805";
             }
+
+
             gunaLabel12.Text = filename;
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+
+            //try
+            //{
+            //Clipboard.SetText("/c " + Directory.GetCurrentDirectory() + "\\" + filename + " " + TBcommand.Text);
             try
             {
-                Process.Start(filename, TBcommand.Text);
-            }
-            catch
+                Process FFstart = Process.Start(new ProcessStartInfo
+                {
+                    FileName = "cmd.exe",
+                    Arguments = "/c " + Directory.GetCurrentDirectory() + "\\" + filename + " " + TBcommand.Text,
+                    WindowStyle = ProcessWindowStyle.Normal,
+                });
+                AlertNotify("Success!", AlertType.Success);
+            }catch
             {
-                MessageBox.Show("Select FFmpeg path");
-
+                AlertNotify("Error!", AlertType.Error);
             }
+           // FFstart.BeginOutputReadLine();
+           // FFstart.OutputDataReceived += (o, output) => { bunifuCustomTextbox1.BeginInvoke((MethodInvoker)(() => bunifuCustomTextbox1.Text = output.Data)); };
+            //bunifuCustomTextbox1.Text = FFstart.StandardOutput.ReadToEnd();
+            //if (!FFstart.StandardOutput.ReadToEnd().Equals(""))
+            //{
+            //    AlertNotify("Success!", Alert.AlertType.Success);
+            //}
+            //else
+            //{
+            //    AlertNotify("An error ocurred", Alert.AlertType.Error);
+            //}
+
+            //}
+            //catch
+            //{
+            // AlertNotify("An error ocurred", Alert.AlertType.Error);
+
+            //}
         }
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
@@ -95,11 +161,20 @@ namespace FFmpegGUI
             }
             // получаем выбранный файл
             input = openFileDialog1.FileName;
+            string output = openFileDialog1.FileName;
+            int x1 = output.Length - 4;
+            string outputnew = output.Remove(x1);
+            outputnew = outputnew + "_new." + output.Split('.')[1];
 
-            icommand.Append(" -i ");
+            icommand.Append(" -i \"");
             icommand.Append(input);
+            icommand.Append("\"");
             TBcommand.Text = icommand.ToString();
-            bunifuMaterialTextbox1.Text = input;
+            bunifuMaterialTextbox1.Text = "\"" + input + "\"";
+            icommand.Append(" ");
+            icommand.Append("\"" + outputnew + "\"");
+            TBcommand.Text = icommand.ToString();
+            bunifuMaterialTextbox2.Text = "\"" + outputnew + "\"";
 
         }
 
@@ -110,11 +185,17 @@ namespace FFmpegGUI
                 return;
             }
             // получаем выбранный файл
+            icommand.Clear();
+            input = openFileDialog1.FileName;
+            icommand.Append(" -i \"");
+            icommand.Append(input);
+            icommand.Append("\"");
+            TBcommand.Text = icommand.ToString();
             string output = saveFileDialog1.FileName;
             icommand.Append(" ");
-            icommand.Append(output);
+            icommand.Append("\"" + output + "\"");
             TBcommand.Text = icommand.ToString();
-            bunifuMaterialTextbox2.Text = output;
+            bunifuMaterialTextbox2.Text = "\"" + output + "\"";
         }
 
         private void gunaLabel2_DoubleClick(object sender, EventArgs e)
@@ -217,15 +298,7 @@ namespace FFmpegGUI
             TBcommand.Text = icommand.ToString();
         }
 
-        private void test_Hover(object sender, EventArgs e)
-        {
-            MessageBox.Show("NOTWORK");
-        }
 
-        private void test2_Hover(object sender, EventArgs e)
-        {
-            MessageBox.Show("NOTWORK");
-        }
 
         private void presets_Click(object sender, EventArgs e)
         {
@@ -236,8 +309,9 @@ namespace FFmpegGUI
             // получаем выбранный файл
             preset = openFileDialog2.FileName;
 
-            icommand.Append(" -preset ");
+            icommand.Append(" -preset \"");
             icommand.Append(preset);
+            icommand.Append("\"");
             TBcommand.Text = icommand.ToString();
             //bunifuMaterialTextbox1.Text = input;
         }
@@ -268,14 +342,13 @@ namespace FFmpegGUI
             // получаем выбранный файл
             vpre = openFileDialog3.FileName;
 
-            icommand.Append(" -vpre ");
+            icommand.Append(" -vpre \"");
             icommand.Append(vpre);
+            icommand.Append("\"");
             TBcommand.Text = icommand.ToString();
             vpreLabel14.Text = vpre;
             //bunifuMaterialTextbox1.Text = input;
         }
-
-
 
         private void bunifuFlatButton10_Click(object sender, EventArgs e)
         {
@@ -300,7 +373,7 @@ namespace FFmpegGUI
                 // получаем выбранный файл
                 string output = saveFileDialog2.FileName;
                 saveoutput = output;
-                icommand.Append(" -f concat -safe 0 -i files.txt -c copy " + saveoutput);
+                icommand.Append(" -f concat -safe 0 -i files.txt -c copy \"" + saveoutput + "\"");
                 TBcommand.Text = icommand.ToString();
 
 
@@ -368,7 +441,7 @@ namespace FFmpegGUI
             //ffmpeg -ss 00:00:00 -t 00:01:14 -i  "+bunifuMaterialTextbox1.Text+" -vcodec copy -acodec copy "+bunifuMaterialTextbox2.Text
             icommand.Clear();
 
-            icommand.Append("-ss "+nachalo.Text+" -t "+konec.Text+" -i  " + bunifuMaterialTextbox1.Text + " -vcodec copy -acodec copy " + bunifuMaterialTextbox2.Text);
+            icommand.Append("-ss " + nachalo.Text + " -t " + konec.Text + " -i  " + bunifuMaterialTextbox1.Text + " -vcodec copy -acodec copy " + bunifuMaterialTextbox2.Text);
             TBcommand.Text = icommand.ToString();
         }
 
@@ -412,8 +485,8 @@ namespace FFmpegGUI
                 }
                 // получаем выбранный файл
                 string output = saveFileDialog2.FileName;
-               
-                icommand.Append(" -f concat -safe 0 -i files.txt -c copy " + output + " -acodec copy -vcodec copy");
+
+                icommand.Append(" -f concat -safe 0 -i files.txt -c copy \"" + output + "\" -acodec copy -vcodec copy");
                 TBcommand.Text = icommand.ToString();
             }
             catch (Exception ex)
@@ -422,18 +495,38 @@ namespace FFmpegGUI
             }
         }
 
-  
-
-        private void bunifuSwitch1_Click(object sender, EventArgs e)
+        private void CESlider()
         {
-            if(bunifuSwitch1.Value)
+            isCEtrue = bunifuSwitch1.Value;
+            xFilewriter.FileWriter file = new xFilewriter.FileWriter();
+
+
+            if (isCEtrue)
             {
-                this.BackgroundImage = FFmpegTGUI.Properties.Resources.neuro_texture_lava;
+                BackgroundImage = FFmpegTGUI.Properties.Resources.neuro_texture_lava;
+
+                file.AppendTextToFile("true", "config.ini", FileMode.Open);
+
             }
             else
             {
-                this.BackgroundImage = null;
+                file.AppendTextToFile("false", "config.ini", FileMode.Open);
+                BackgroundImage = null;
             }
+        }
+        private void bunifuSwitch1_Click(object sender, EventArgs e)
+        {
+            CESlider();
+        }
+
+        private void gunaPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -34,7 +34,7 @@ namespace FFmpegGUI
 
         private void xuiSuperButton1_Click(object sender, EventArgs e)
         {
-                     
+            filename = TBPath.Text;
             Close();
         }
 

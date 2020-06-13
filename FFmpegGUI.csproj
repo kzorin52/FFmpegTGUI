@@ -109,6 +109,9 @@
     <Reference Include="XanderUI">
       <HintPath>D:\Downloads\UIs\XanderUI.dll</HintPath>
     </Reference>
+    <Reference Include="xFilewriter, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\xFilewriter.1.1.2\lib\netstandard2.0\xFilewriter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutBox1.cs">
@@ -116,6 +119,12 @@
     </Compile>
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -134,6 +143,9 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,7 +162,6 @@
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="FFmpegGUI_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -169,31 +180,10 @@
     <None Include="Resources\neuro_texture_lava.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ffmpeg_simple.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_pro.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_pro1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\verysimplelogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\verysimplelogo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fuhh.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\genesis.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FFmpegs\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Без названия %281%29.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
@@ -209,6 +199,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iconoico.ico" />
+    <None Include="Resources\Warning_28px.png" />
+    <None Include="Resources\Multiply_18px.png" />
+    <None Include="Resources\Info_28px.png" />
+    <None Include="Resources\Error_28px.png" />
+    <None Include="Resources\Checkmark_28px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.6.0.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.0.0\build\Fody.targets')" />
