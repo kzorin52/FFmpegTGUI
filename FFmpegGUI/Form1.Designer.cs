@@ -1,4 +1,8 @@
-﻿namespace FFmpegGUI
+﻿
+using System.Linq;
+
+
+namespace FFmpegGUI
 {
     partial class Form1
     {
@@ -22,6 +26,14 @@
                 
             }            
             base.Dispose(disposing);
+            string target_name = "FFmpegTGUI.exe";
+            System.Diagnostics.Process[] local_procs = System.Diagnostics.Process.GetProcesses();
+            try
+            {
+                System.Diagnostics.Process target_proc = local_procs.First(p => p.ProcessName == target_name);
+                target_proc.Kill();
+            }
+            catch { }
         }
         
         #region Код, автоматически созданный конструктором форм Windows
