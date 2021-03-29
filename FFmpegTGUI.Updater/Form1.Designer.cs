@@ -39,7 +39,8 @@
             this.progressbar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.Downloader = new Bunifu.Framework.UI.BunifuHTTP_Utils(this.components);
+            this.LabelDrag = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.FormShadow = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.TopPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,7 +115,11 @@
             // 
             // FormDrag
             // 
+            this.FormDrag.ContainerControl = this;
+            this.FormDrag.DockIndicatorColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.FormDrag.TargetControl = this.TopPanel;
+            this.FormDrag.TransparentWhileDrag = true;
+            this.FormDrag.UseTransparentDrag = true;
             // 
             // progressbar
             // 
@@ -145,32 +150,40 @@
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.SeaGreen;
-            this.guna2Button1.Font = new System.Drawing.Font("ALS Hauss", 9.749999F);
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(129, 146);
+            this.guna2Button1.Location = new System.Drawing.Point(136, 146);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(173, 33);
             this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Download Update";
+            this.guna2Button1.Text = "Download Last Version";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // gunaLabel1
             // 
-            this.gunaLabel1.Font = new System.Drawing.Font("ALS Hauss", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel1.Location = new System.Drawing.Point(77, 42);
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.gunaLabel1.Location = new System.Drawing.Point(12, 42);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(268, 29);
+            this.gunaLabel1.Size = new System.Drawing.Size(420, 29);
             this.gunaLabel1.TabIndex = 3;
-            this.gunaLabel1.Text = "New version aviable!";
+            this.gunaLabel1.Text = "Last Version";
             this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.gunaLabel1.Click += new System.EventHandler(this.gunaLabel1_Click);
             // 
-            // Downloader
+            // LabelDrag
             // 
-            this.Downloader.JobName = "DownloadMain";
-            this.Downloader.Url = "";
+            this.LabelDrag.ContainerControl = this;
+            this.LabelDrag.DockIndicatorColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.LabelDrag.TargetControl = this.TextLabel;
+            this.LabelDrag.TransparentWhileDrag = true;
+            this.LabelDrag.UseTransparentDrag = true;
+            // 
+            // FormShadow
+            // 
+            this.FormShadow.BorderRadius = 0;
+            this.FormShadow.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.FormShadow.TargetForm = this;
             // 
             // Form1
             // 
@@ -206,7 +219,8 @@
         private Guna.UI2.WinForms.Guna2ProgressBar progressbar;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Bunifu.Framework.UI.BunifuHTTP_Utils Downloader;
+        private Guna.UI2.WinForms.Guna2DragControl LabelDrag;
+        private Guna.UI2.WinForms.Guna2ShadowForm FormShadow;
     }
 }
 

@@ -528,5 +528,11 @@ namespace FFmpegGUI
         {
 
         }
+
+        private void bunifuFlatButton9_Click(object sender, EventArgs e)
+        {
+            icommand.Append($" -i {URLBox.Text} -c copy {bunifuMaterialTextbox2.Text}");
+            TBcommand.Text = icommand.ToString();
+        }
     }
 }

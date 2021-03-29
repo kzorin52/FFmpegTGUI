@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using SevenZip;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.IO.Compression;
@@ -11,14 +14,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
-using SevenZip;
 using static Alert.Alert;
 
 namespace FFmpegTGUI.Updater
 {
     public partial class Form1 : Form
     {
+        WebClient wcprog = new WebClient();
         private string version;
         private string line;
         private string link;
@@ -27,51 +29,44 @@ namespace FFmpegTGUI.Updater
         public Form1()
         {
             InitializeComponent();
-            TextLabel.Text = Text;  
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls |SecurityProtocolType.Tls13 | SecurityProtocolType.Ssl3;
+            TextLabel.Text = Text;
+
+            ServicePointManager.SecurityProtocol =
+                SecurityProtocolType.Tls12
+                | SecurityProtocolType.Tls11
+                | SecurityProtocolType.Tls
+                | SecurityProtocolType.Tls13
+                | SecurityProtocolType.Ssl3;
         }
 
-          void guna2Button1_Click(object sender, EventArgs e)
+        void guna2Button1_Click(object sender, EventArgs e)
         {
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls |SecurityProtocolType.Tls13 | SecurityProtocolType.Ssl3;
-            Downloader.Url = link;
+            wcprog.DownloadProgressChanged += (s, progress) => progressbar.Value = progress.ProgressPercentage;
+            wcprog.DownloadFileCompleted += (s, ee) => { AlertShow("Completed!", AlertType.Success); Process.Start("FFmpegTGUI.exe"); Environment.Exit(0); };
 
-
+            wcprog.DownloadFileAsync(new Uri(link), filename);
         }
-   
+
         void AlertShow(string Message, AlertType Type)
         {
             new Alert.Alert().ShowAlert(Message, Type);
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            using (WebClient wcstring = new WebClient())
+            Task.Run(() =>
             {
-                line = wcstring.DownloadString("https://raw.githubusercontent.com/kzorin52/JSON-UPDATERS/master/db.json");
-            }
+                line = new WebClient().DownloadString("https://pastebin.com/raw/gjUwasYB");
 
-            JObject obj = JObject.Parse(line);
-            var FFmpegTGUIline =  JObject.Parse(obj["FFmpegTGUI"].ToString());
-            version = FFmpegTGUIline["FFmpeg-TGUI-Version"].ToString();
-            link = FFmpegTGUIline["FFmpeg-TGUI-LastVersion-link"].ToString();
-            gunaLabel1.Text = "New version aviable! - " + version;
-            var matches = Regex.Matches(link, @"/").Cast<Match>().Select(i => i.Value).ToArray();
-            string slash = string.Join("", matches);
-            filename = link.Split('/')[slash.Length];
+                var obj = JObject.Parse(line);
+                version = obj["FFmpeg-TGUI-Version"].ToString();
+                link = obj["FFmpeg-TGUI-LastVersion-link"].ToString();
+
+                gunaLabel1.Text = "Last Version - " + version;
+                filename = "FFmpegTGUI.exe";
+            });
         }
 
-        private void gunaLabel1_Click(object sender, EventArgs e)
-        {
-            using (WebClient wcprog = new WebClient())
-            {
 
-                wcprog.DownloadProgressChanged += (s, progress) =>
-                {
-                    progressbar.Value = progress.ProgressPercentage;
-                };
-                wcprog.DownloadFileAsync(new Uri(link), filename);
-
-            }
-        }
     }
 }

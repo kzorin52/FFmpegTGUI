@@ -131,6 +131,9 @@ namespace FFmpegGUI
             this.lToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bunifuMaterialTextbox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.bunifuMaterialTextbox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.URLBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.gunaLabel14 = new Guna.UI.WinForms.GunaLabel();
+            this.bunifuFlatButton9 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.gunaLinePanel1.SuspendLayout();
             this.xuiFlatMenuStrip1.SuspendLayout();
             this.gunaPanel1.SuspendLayout();
@@ -1168,6 +1171,9 @@ namespace FFmpegGUI
             // 
             resources.ApplyResources(this.gunaPanel1, "gunaPanel1");
             this.gunaPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaPanel1.Controls.Add(this.bunifuFlatButton9);
+            this.gunaPanel1.Controls.Add(this.gunaLabel14);
+            this.gunaPanel1.Controls.Add(this.URLBox);
             this.gunaPanel1.Controls.Add(this.threadsval);
             this.gunaPanel1.Controls.Add(this.ahz);
             this.gunaPanel1.Controls.Add(this.probeval);
@@ -1568,6 +1574,66 @@ namespace FFmpegGUI
             this.bunifuMaterialTextbox2.ShadowDecoration.Parent = this.bunifuMaterialTextbox2;
             this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // URLBox
+            // 
+            this.URLBox.Animated = true;
+            this.URLBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.URLBox.DefaultText = "";
+            this.URLBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.URLBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.URLBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.URLBox.DisabledState.Parent = this.URLBox;
+            this.URLBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.URLBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
+            this.URLBox.FocusedState.Parent = this.URLBox;
+            resources.ApplyResources(this.URLBox, "URLBox");
+            this.URLBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(235)))), ((int)(((byte)(129)))));
+            this.URLBox.HoverState.Parent = this.URLBox;
+            this.URLBox.Name = "URLBox";
+            this.URLBox.PasswordChar = '\0';
+            this.URLBox.PlaceholderText = "URL";
+            this.URLBox.SelectedText = "";
+            this.URLBox.ShadowDecoration.Parent = this.URLBox;
+            this.URLBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaLabel14
+            // 
+            resources.ApplyResources(this.gunaLabel14, "gunaLabel14");
+            this.gunaLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel14.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel14.Name = "gunaLabel14";
+            // 
+            // bunifuFlatButton9
+            // 
+            this.bunifuFlatButton9.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            resources.ApplyResources(this.bunifuFlatButton9, "bunifuFlatButton9");
+            this.bunifuFlatButton9.BorderRadius = 0;
+            this.bunifuFlatButton9.ButtonText = "OK";
+            this.bunifuFlatButton9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton9.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton9.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton9.Iconimage = null;
+            this.bunifuFlatButton9.Iconimage_right = null;
+            this.bunifuFlatButton9.Iconimage_right_Selected = null;
+            this.bunifuFlatButton9.Iconimage_Selected = null;
+            this.bunifuFlatButton9.IconMarginLeft = 0;
+            this.bunifuFlatButton9.IconMarginRight = 0;
+            this.bunifuFlatButton9.IconRightVisible = true;
+            this.bunifuFlatButton9.IconRightZoom = 0D;
+            this.bunifuFlatButton9.IconVisible = true;
+            this.bunifuFlatButton9.IconZoom = 90D;
+            this.bunifuFlatButton9.IsTab = false;
+            this.bunifuFlatButton9.Name = "bunifuFlatButton9";
+            this.bunifuFlatButton9.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton9.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton9.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton9.selected = false;
+            this.bunifuFlatButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton9.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton9.TextFont = new System.Drawing.Font("Century Gothic", 8.5F);
+            this.bunifuFlatButton9.Click += new System.EventHandler(this.bunifuFlatButton9_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -1696,6 +1762,9 @@ namespace FFmpegGUI
         private System.Windows.Forms.ToolStripMenuItem lToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2TextBox bunifuMaterialTextbox2;
         private Guna.UI2.WinForms.Guna2TextBox bunifuMaterialTextbox1;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton9;
+        private Guna.UI.WinForms.GunaLabel gunaLabel14;
+        private Guna.UI2.WinForms.Guna2TextBox URLBox;
     }
 }
 
