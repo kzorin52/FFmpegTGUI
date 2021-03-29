@@ -117,6 +117,135 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gunaLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gunaLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="gunaLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="gunaLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel2.Text" xml:space="preserve">
+    <value>FFmpegTGUI</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel2.Name" xml:space="preserve">
+    <value>gunaLabel2</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel2.Parent" xml:space="preserve">
+    <value>gunaLinePanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gunaControlBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="gunaControlBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 0</value>
+  </data>
+  <data name="gunaControlBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="gunaControlBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox3.Name" xml:space="preserve">
+    <value>gunaControlBox3</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaControlBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox3.Parent" xml:space="preserve">
+    <value>gunaLinePanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gunaControlBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="gunaControlBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>941, 0</value>
+  </data>
+  <data name="gunaControlBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="gunaControlBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox2.Name" xml:space="preserve">
+    <value>gunaControlBox2</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaControlBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox2.Parent" xml:space="preserve">
+    <value>gunaLinePanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gunaControlBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="gunaControlBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>978, 0</value>
+  </data>
+  <data name="gunaControlBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="gunaControlBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox1.Name" xml:space="preserve">
+    <value>gunaControlBox1</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaControlBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox1.Parent" xml:space="preserve">
+    <value>gunaLinePanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaControlBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gunaLinePanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gunaLinePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gunaLinePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 23</value>
+  </data>
+  <data name="gunaLinePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gunaLinePanel1.Name" xml:space="preserve">
+    <value>gunaLinePanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLinePanel1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLinePanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLinePanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaLinePanel1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
   <metadata name="gunaDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>18, 16</value>
   </metadata>
@@ -126,10 +255,1914 @@
   <metadata name="xuiFlatMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>584, 16</value>
   </metadata>
+  <data name="loToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="loToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="lolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="lolToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="xuiFlatMenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="xuiFlatMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 24</value>
+  </data>
+  <data name="xuiFlatMenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="xuiFlatMenuStrip1.Text" xml:space="preserve">
+    <value>xuiFlatMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;xuiFlatMenuStrip1.Name" xml:space="preserve">
+    <value>xuiFlatMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;xuiFlatMenuStrip1.Type" xml:space="preserve">
+    <value>XanderUI.XUIFlatMenuStrip, XanderUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xuiFlatMenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xuiFlatMenuStrip1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
   <metadata name="gunaResize1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>464, 16</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 640</value>
+  </data>
+  <data name="bunifuMaterialTextbox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="bunifuMaterialTextbox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 83</value>
+  </data>
+  <data name="bunifuMaterialTextbox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>615, 23</value>
+  </data>
+  <data name="bunifuMaterialTextbox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox2.Name" xml:space="preserve">
+    <value>bunifuMaterialTextbox2</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuMaterialTextbox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="bunifuMaterialTextbox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 50</value>
+  </data>
+  <data name="bunifuMaterialTextbox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>615, 23</value>
+  </data>
+  <data name="bunifuMaterialTextbox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox1.Name" xml:space="preserve">
+    <value>bunifuMaterialTextbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuMaterialTextbox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuSwitch1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="bunifuSwitch1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="bunifuSwitch1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;bunifuSwitch1.Name" xml:space="preserve">
+    <value>bunifuSwitch1</value>
+  </data>
+  <data name="&gt;&gt;bunifuSwitch1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuSwitch, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuSwitch1.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox2</value>
+  </data>
+  <data name="&gt;&gt;bunifuSwitch1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xuiCustomGroupbox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="xuiCustomGroupbox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 46</value>
+  </data>
+  <data name="xuiCustomGroupbox2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="xuiCustomGroupbox2.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox2.Name" xml:space="preserve">
+    <value>xuiCustomGroupbox2</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox2.Type" xml:space="preserve">
+    <value>XanderUI.XUICustomGroupbox, XanderUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xuiCustomGroupbox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="guna2VSeparator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 8</value>
+  </data>
+  <data name="guna2VSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 149</value>
+  </data>
+  <data name="guna2VSeparator1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;guna2VSeparator1.Name" xml:space="preserve">
+    <value>guna2VSeparator1</value>
+  </data>
+  <data name="&gt;&gt;guna2VSeparator1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2VSeparator, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2VSeparator1.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;guna2VSeparator1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuFlatButton14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuFlatButton14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 103</value>
+  </data>
+  <data name="bunifuFlatButton14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bunifuFlatButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 34</value>
+  </data>
+  <data name="bunifuFlatButton14.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="bunifuFlatButton14.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Name" xml:space="preserve">
+    <value>bunifuFlatButton14</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gunaLabel18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gunaLabel18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 72</value>
+  </data>
+  <data name="gunaLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="gunaLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="gunaLabel18.Text" xml:space="preserve">
+    <value>End:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel18.Name" xml:space="preserve">
+    <value>gunaLabel18</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel18.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel18.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel18.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gunaLabel17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gunaLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 18</value>
+  </data>
+  <data name="gunaLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="gunaLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="gunaLabel17.Text" xml:space="preserve">
+    <value>Begin:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel17.Name" xml:space="preserve">
+    <value>gunaLabel17</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel17.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel17.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel17.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="konec.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt</value>
+  </data>
+  <data name="konec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 56</value>
+  </data>
+  <data name="konec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 40</value>
+  </data>
+  <data name="konec.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;konec.Name" xml:space="preserve">
+    <value>konec</value>
+  </data>
+  <data name="&gt;&gt;konec.Type" xml:space="preserve">
+    <value>EgoldsUI.EgoldsGoogleTextBox, EgoldsUI, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;konec.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;konec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nachalo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt</value>
+  </data>
+  <data name="nachalo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 8</value>
+  </data>
+  <data name="nachalo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 40</value>
+  </data>
+  <data name="nachalo.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;nachalo.Name" xml:space="preserve">
+    <value>nachalo</value>
+  </data>
+  <data name="&gt;&gt;nachalo.Type" xml:space="preserve">
+    <value>EgoldsUI.EgoldsGoogleTextBox, EgoldsUI, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nachalo.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;nachalo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="guna2Separator3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="guna2Separator3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 116</value>
+  </data>
+  <data name="guna2Separator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 10</value>
+  </data>
+  <data name="guna2Separator3.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator3.Name" xml:space="preserve">
+    <value>guna2Separator3</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator3.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="guna2Separator2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="guna2Separator2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 40</value>
+  </data>
+  <data name="guna2Separator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 10</value>
+  </data>
+  <data name="guna2Separator2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator2.Name" xml:space="preserve">
+    <value>guna2Separator2</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator2.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="guna2Separator1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="guna2Separator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 75</value>
+  </data>
+  <data name="guna2Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 10</value>
+  </data>
+  <data name="guna2Separator1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator1.Name" xml:space="preserve">
+    <value>guna2Separator1</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator1.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;guna2Separator1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="gunaLabel16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gunaLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 94</value>
+  </data>
+  <data name="gunaLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="gunaLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="gunaLabel16.Text" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel16.Name" xml:space="preserve">
+    <value>gunaLabel16</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel16.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel16.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel16.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="bunifuFlatButton13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuFlatButton13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 90</value>
+  </data>
+  <data name="bunifuFlatButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 25</value>
+  </data>
+  <data name="bunifuFlatButton13.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="bunifuFlatButton13.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Name" xml:space="preserve">
+    <value>bunifuFlatButton13</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton13.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuFlatButton11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 50</value>
+  </data>
+  <data name="bunifuFlatButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="bunifuFlatButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="bunifuFlatButton11.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Name" xml:space="preserve">
+    <value>bunifuFlatButton11</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton11.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="bunifuFlatButton10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuFlatButton10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 50</value>
+  </data>
+  <data name="bunifuFlatButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="bunifuFlatButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="bunifuFlatButton10.Text" xml:space="preserve">
+    <value>SPLIT</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Name" xml:space="preserve">
+    <value>bunifuFlatButton10</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton10.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="speedup2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="speedup2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="speedup2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 11</value>
+  </data>
+  <data name="speedup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 30</value>
+  </data>
+  <data name="speedup2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;speedup2.Name" xml:space="preserve">
+    <value>speedup2</value>
+  </data>
+  <data name="&gt;&gt;speedup2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;speedup2.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;speedup2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="bunifuFlatButton12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bunifuFlatButton12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 11</value>
+  </data>
+  <data name="bunifuFlatButton12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="bunifuFlatButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 30</value>
+  </data>
+  <data name="bunifuFlatButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="bunifuFlatButton12.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Name" xml:space="preserve">
+    <value>bunifuFlatButton12</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton12.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gunaLabel15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gunaLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 18</value>
+  </data>
+  <data name="gunaLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="gunaLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="gunaLabel15.Text" xml:space="preserve">
+    <value>Speed up:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel15.Name" xml:space="preserve">
+    <value>gunaLabel15</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel15.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel15.Parent" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel15.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="xuiCustomGroupbox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 466</value>
+  </data>
+  <data name="xuiCustomGroupbox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 171</value>
+  </data>
+  <data name="xuiCustomGroupbox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="xuiCustomGroupbox1.Text" xml:space="preserve">
+    <value>My Videos</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox1.Name" xml:space="preserve">
+    <value>xuiCustomGroupbox1</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox1.Type" xml:space="preserve">
+    <value>XanderUI.XUICustomGroupbox, XanderUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xuiCustomGroupbox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gunaPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="threadsval.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="threadsval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="threadsval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 4</value>
+  </data>
+  <data name="threadsval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 30</value>
+  </data>
+  <data name="threadsval.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;threadsval.Name" xml:space="preserve">
+    <value>threadsval</value>
+  </data>
+  <data name="&gt;&gt;threadsval.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;threadsval.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;threadsval.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ahz.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="ahz.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 107</value>
+  </data>
+  <data name="ahz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="ahz.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ahz.Name" xml:space="preserve">
+    <value>ahz</value>
+  </data>
+  <data name="&gt;&gt;ahz.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ahz.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;ahz.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="probeval.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="probeval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="probeval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 45</value>
+  </data>
+  <data name="probeval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 30</value>
+  </data>
+  <data name="probeval.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;probeval.Name" xml:space="preserve">
+    <value>probeval</value>
+  </data>
+  <data name="&gt;&gt;probeval.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;probeval.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;probeval.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="abtr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="abtr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 143</value>
+  </data>
+  <data name="abtr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="abtr.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;abtr.Name" xml:space="preserve">
+    <value>abtr</value>
+  </data>
+  <data name="&gt;&gt;abtr.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;abtr.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;abtr.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 3</value>
+  </data>
+  <data name="bunifuFlatButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 30</value>
+  </data>
+  <data name="bunifuFlatButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton6.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Name" xml:space="preserve">
+    <value>bunifuFlatButton6</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="passval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="passval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 179</value>
+  </data>
+  <data name="passval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="passval.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;passval.Name" xml:space="preserve">
+    <value>passval</value>
+  </data>
+  <data name="&gt;&gt;passval.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaNumeric, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;passval.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;passval.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuFlatButton5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 45</value>
+  </data>
+  <data name="bunifuFlatButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 32</value>
+  </data>
+  <data name="bunifuFlatButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton5.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton5.Name" xml:space="preserve">
+    <value>bunifuFlatButton5</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton5.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton5.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gunaComboBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="gunaComboBox2.Items" xml:space="preserve">
+    <value>libmp3lame</value>
+  </data>
+  <data name="gunaComboBox2.Items1" xml:space="preserve">
+    <value>libvorbis</value>
+  </data>
+  <data name="gunaComboBox2.Items2" xml:space="preserve">
+    <value>mp3</value>
+  </data>
+  <data name="gunaComboBox2.Items3" xml:space="preserve">
+    <value>libfaac</value>
+  </data>
+  <data name="gunaComboBox2.Items4" xml:space="preserve">
+    <value>pcm_s16le</value>
+  </data>
+  <data name="gunaComboBox2.Items5" xml:space="preserve">
+    <value>alac</value>
+  </data>
+  <data name="gunaComboBox2.Items6" xml:space="preserve">
+    <value>copy</value>
+  </data>
+  <data name="gunaComboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 173</value>
+  </data>
+  <data name="gunaComboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="gunaComboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox2.Name" xml:space="preserve">
+    <value>gunaComboBox2</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaComboBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox2.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gunaComboBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="gunaComboBox3.Items" xml:space="preserve">
+    <value>aac_adtstoasc</value>
+  </data>
+  <data name="gunaComboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 85</value>
+  </data>
+  <data name="gunaComboBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="gunaComboBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox3.Name" xml:space="preserve">
+    <value>gunaComboBox3</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaComboBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox3.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bunifuFlatButton8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 83</value>
+  </data>
+  <data name="bunifuFlatButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 26</value>
+  </data>
+  <data name="bunifuFlatButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton8.Text" xml:space="preserve">
+    <value>PRESETS</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Name" xml:space="preserve">
+    <value>bunifuFlatButton8</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="gunaComboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="gunaComboBox1.Items" xml:space="preserve">
+    <value>ffvhuff</value>
+  </data>
+  <data name="gunaComboBox1.Items1" xml:space="preserve">
+    <value>mpeg2video</value>
+  </data>
+  <data name="gunaComboBox1.Items2" xml:space="preserve">
+    <value>libx264</value>
+  </data>
+  <data name="gunaComboBox1.Items3" xml:space="preserve">
+    <value>mpeg4</value>
+  </data>
+  <data name="gunaComboBox1.Items4" xml:space="preserve">
+    <value>libxvid</value>
+  </data>
+  <data name="gunaComboBox1.Items5" xml:space="preserve">
+    <value>h264</value>
+  </data>
+  <data name="gunaComboBox1.Items6" xml:space="preserve">
+    <value>copy</value>
+  </data>
+  <data name="gunaComboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 129</value>
+  </data>
+  <data name="gunaComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="gunaComboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox1.Name" xml:space="preserve">
+    <value>gunaComboBox1</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaComboBox, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox1.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaComboBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 11</value>
+  </data>
+  <data name="gunaLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="gunaLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel3.Text" xml:space="preserve">
+    <value>Threads:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel3.Name" xml:space="preserve">
+    <value>gunaLabel3</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel3.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gunaLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 52</value>
+  </data>
+  <data name="gunaLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="gunaLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel4.Text" xml:space="preserve">
+    <value>Probesize:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel4.Name" xml:space="preserve">
+    <value>gunaLabel4</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel4.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel4.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gunaLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 178</value>
+  </data>
+  <data name="gunaLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="gunaLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel10.Text" xml:space="preserve">
+    <value>ACODEC</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel10.Name" xml:space="preserve">
+    <value>gunaLabel10</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel10.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel10.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="gunaLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 186</value>
+  </data>
+  <data name="gunaLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="gunaLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel8.Text" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel8.Name" xml:space="preserve">
+    <value>gunaLabel8</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel8.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel8.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel8.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="passbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="passbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 181</value>
+  </data>
+  <data name="passbtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="passbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 28</value>
+  </data>
+  <data name="passbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="passbtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;passbtn.Name" xml:space="preserve">
+    <value>passbtn</value>
+  </data>
+  <data name="&gt;&gt;passbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;passbtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;passbtn.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gunaLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 150</value>
+  </data>
+  <data name="gunaLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="gunaLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel7.Text" xml:space="preserve">
+    <value>Audio bitrate</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Name" xml:space="preserve">
+    <value>gunaLabel7</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="abbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="abbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 143</value>
+  </data>
+  <data name="abbtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="abbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 30</value>
+  </data>
+  <data name="abbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="abbtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;abbtn.Name" xml:space="preserve">
+    <value>abbtn</value>
+  </data>
+  <data name="&gt;&gt;abbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;abbtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;abbtn.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gunaLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 134</value>
+  </data>
+  <data name="gunaLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="gunaLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel9.Text" xml:space="preserve">
+    <value>VCODEC</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel9.Name" xml:space="preserve">
+    <value>gunaLabel9</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel9.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel9.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel9.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="anbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="anbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>801, 59</value>
+  </data>
+  <data name="anbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="anbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="anbtn.Text" xml:space="preserve">
+    <value>audio not</value>
+  </data>
+  <data name="&gt;&gt;anbtn.Name" xml:space="preserve">
+    <value>anbtn</value>
+  </data>
+  <data name="&gt;&gt;anbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;anbtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;anbtn.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="gunaLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 90</value>
+  </data>
+  <data name="gunaLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="gunaLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel13.Text" xml:space="preserve">
+    <value>ABSF</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel13.Name" xml:space="preserve">
+    <value>gunaLabel13</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel13.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel13.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel13.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="vnbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="vnbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>801, 10</value>
+  </data>
+  <data name="vnbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <data name="vnbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="vnbtn.Text" xml:space="preserve">
+    <value>video not</value>
+  </data>
+  <data name="&gt;&gt;vnbtn.Name" xml:space="preserve">
+    <value>vnbtn</value>
+  </data>
+  <data name="&gt;&gt;vnbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;vnbtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;vnbtn.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="gunaLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gunaLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 114</value>
+  </data>
+  <data name="gunaLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="gunaLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel5.Text" xml:space="preserve">
+    <value>Hz of audio</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel5.Name" xml:space="preserve">
+    <value>gunaLabel5</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel5.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel5.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel5.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="vprebtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="vprebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 51</value>
+  </data>
+  <data name="vprebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="vprebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="vprebtn.Text" xml:space="preserve">
+    <value>VPRE</value>
+  </data>
+  <data name="&gt;&gt;vprebtn.Name" xml:space="preserve">
+    <value>vprebtn</value>
+  </data>
+  <data name="&gt;&gt;vprebtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;vprebtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;vprebtn.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="arbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="arbtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="arbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 107</value>
+  </data>
+  <data name="arbtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="arbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 30</value>
+  </data>
+  <data name="arbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="arbtn.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;arbtn.Name" xml:space="preserve">
+    <value>arbtn</value>
+  </data>
+  <data name="&gt;&gt;arbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;arbtn.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;arbtn.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="acodec.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="acodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 173</value>
+  </data>
+  <data name="acodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 26</value>
+  </data>
+  <data name="acodec.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="acodec.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;acodec.Name" xml:space="preserve">
+    <value>acodec</value>
+  </data>
+  <data name="&gt;&gt;acodec.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;acodec.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;acodec.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="bunifuFlatButton7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 129</value>
+  </data>
+  <data name="bunifuFlatButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 26</value>
+  </data>
+  <data name="bunifuFlatButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton7.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Name" xml:space="preserve">
+    <value>bunifuFlatButton7</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton7.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="acodecalac.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="acodecalac.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 41</value>
+  </data>
+  <data name="acodecalac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 25</value>
+  </data>
+  <data name="acodecalac.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="acodecalac.Text" xml:space="preserve">
+    <value>alac</value>
+  </data>
+  <data name="&gt;&gt;acodecalac.Name" xml:space="preserve">
+    <value>acodecalac</value>
+  </data>
+  <data name="&gt;&gt;acodecalac.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;acodecalac.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;acodecalac.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="absf.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="absf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 85</value>
+  </data>
+  <data name="absf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="absf.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="absf.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;absf.Name" xml:space="preserve">
+    <value>absf</value>
+  </data>
+  <data name="&gt;&gt;absf.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;absf.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;absf.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="acodeccopy.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="acodeccopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 41</value>
+  </data>
+  <data name="acodeccopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 25</value>
+  </data>
+  <data name="acodeccopy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="acodeccopy.Text" xml:space="preserve">
+    <value>-acodec copy</value>
+  </data>
+  <data name="&gt;&gt;acodeccopy.Name" xml:space="preserve">
+    <value>acodeccopy</value>
+  </data>
+  <data name="&gt;&gt;acodeccopy.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;acodeccopy.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;acodeccopy.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="scodeccopy.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="scodeccopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 103</value>
+  </data>
+  <data name="scodeccopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 25</value>
+  </data>
+  <data name="scodeccopy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="scodeccopy.Text" xml:space="preserve">
+    <value>-scodec copy</value>
+  </data>
+  <data name="&gt;&gt;scodeccopy.Name" xml:space="preserve">
+    <value>scodeccopy</value>
+  </data>
+  <data name="&gt;&gt;scodeccopy.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scodeccopy.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;scodeccopy.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="vcodeccopy.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="vcodeccopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 72</value>
+  </data>
+  <data name="vcodeccopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 25</value>
+  </data>
+  <data name="vcodeccopy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="vcodeccopy.Text" xml:space="preserve">
+    <value>-vcodec copy</value>
+  </data>
+  <data name="&gt;&gt;vcodeccopy.Name" xml:space="preserve">
+    <value>vcodeccopy</value>
+  </data>
+  <data name="&gt;&gt;vcodeccopy.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;vcodeccopy.Parent" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;vcodeccopy.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="gunaPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 113</value>
+  </data>
+  <data name="gunaPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>889, 242</value>
+  </data>
+  <data name="gunaPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;gunaPanel1.Name" xml:space="preserve">
+    <value>gunaPanel1</value>
+  </data>
+  <data name="&gt;&gt;gunaPanel1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaPanel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaPanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gunaLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 86</value>
+  </data>
+  <data name="gunaLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="gunaLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel6.Text" xml:space="preserve">
+    <value>Output:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel6.Name" xml:space="preserve">
+    <value>gunaLabel6</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel6.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gunaLabel12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="gunaLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 625</value>
+  </data>
+  <data name="gunaLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="gunaLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel12.Text" xml:space="preserve">
+    <value>UNCOWN ERROR</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel12.Name" xml:space="preserve">
+    <value>gunaLabel12</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel12.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel12.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gunaLabel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="gunaLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 595</value>
+  </data>
+  <data name="gunaLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="gunaLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel11.Text" xml:space="preserve">
+    <value>UNCOWN ERROR</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel11.Name" xml:space="preserve">
+    <value>gunaLabel11</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel11.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel11.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gunaLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="gunaLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 53</value>
+  </data>
+  <data name="gunaLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="gunaLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gunaLabel1.Text" xml:space="preserve">
+    <value>Input:</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel1.Name" xml:space="preserve">
+    <value>gunaLabel1</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TBcommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="TBcommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 361</value>
+  </data>
+  <data name="TBcommand.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TBcommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 89</value>
+  </data>
+  <data name="TBcommand.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;TBcommand.Name" xml:space="preserve">
+    <value>TBcommand</value>
+  </data>
+  <data name="&gt;&gt;TBcommand.Type" xml:space="preserve">
+    <value>WindowsFormsControlLibrary1.BunifuCustomTextbox, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TBcommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBcommand.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="vpreLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vpreLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
+  </data>
+  <data name="vpreLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 110</value>
+  </data>
+  <data name="vpreLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="vpreLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;vpreLabel14.Name" xml:space="preserve">
+    <value>vpreLabel14</value>
+  </data>
+  <data name="&gt;&gt;vpreLabel14.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;vpreLabel14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;vpreLabel14.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-62, -82</value>
+  </data>
+  <data name="bunifuFlatButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 38</value>
+  </data>
+  <data name="bunifuFlatButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton4.Text" xml:space="preserve">
+    <value>PROCESS</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Name" xml:space="preserve">
+    <value>bunifuFlatButton4</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="bunifuFlatButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="bunifuFlatButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>978, 83</value>
+  </data>
+  <data name="bunifuFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="bunifuFlatButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton3.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
+    <value>bunifuFlatButton3</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="bunifuFlatButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>978, 50</value>
+  </data>
+  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
+    <value>bunifuFlatButton2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="clearbtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="clearbtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="clearbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>746, 456</value>
+  </data>
+  <data name="clearbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 38</value>
+  </data>
+  <data name="clearbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="clearbtn.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Name" xml:space="preserve">
+    <value>clearbtn</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearbtn.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="bunifuFlatButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>817, 529</value>
+  </data>
+  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 48</value>
+  </data>
+  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="bunifuFlatButton1.Text" xml:space="preserve">
+    <value>PROCESS</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
+    <value>bunifuFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAMIeAADCHgAAAAEAAAAB
@@ -172,6 +2205,108 @@
         BwOABwABAAeAAAAHwACAD/AB
 </value>
   </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100000, 100000</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FFmpegTGUI</value>
+  </data>
+  <data name="&gt;&gt;gunaDragControl1.Name" xml:space="preserve">
+    <value>gunaDragControl1</value>
+  </data>
+  <data name="&gt;&gt;gunaDragControl1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaDragControl2.Name" xml:space="preserve">
+    <value>gunaDragControl2</value>
+  </data>
+  <data name="&gt;&gt;gunaDragControl2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;loToolStripMenuItem.Name" xml:space="preserve">
+    <value>loToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lolToolStripMenuItem.Name" xml:space="preserve">
+    <value>lolToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lolToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gunaResize1.Name" xml:space="preserve">
+    <value>gunaResize1</value>
+  </data>
+  <data name="&gt;&gt;gunaResize1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaResize, Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog2.Name" xml:space="preserve">
+    <value>openFileDialog2</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog3.Name" xml:space="preserve">
+    <value>openFileDialog3</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilesForSplit.Name" xml:space="preserve">
+    <value>FilesForSplit</value>
+  </data>
+  <data name="&gt;&gt;FilesForSplit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog2.Name" xml:space="preserve">
+    <value>saveFileDialog2</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog4.Name" xml:space="preserve">
+    <value>openFileDialog4</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;xuiObjectAnimator1.Name" xml:space="preserve">
+    <value>xuiObjectAnimator1</value>
+  </data>
+  <data name="&gt;&gt;xuiObjectAnimator1.Type" xml:space="preserve">
+    <value>XanderUI.XUIObjectAnimator, XanderUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lToolStripMenuItem.Name" xml:space="preserve">
+    <value>lToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>734, 16</value>
   </metadata>
@@ -196,4 +2331,10 @@
   <metadata name="xuiObjectAnimator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>410, 55</value>
   </metadata>
+  <data name="lToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="lToolStripMenuItem.Text" xml:space="preserve">
+    <value>l</value>
+  </data>
 </root>

@@ -131,7 +131,7 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel1.ForeColor = System.Drawing.Color.Black;
-            this.gunaLabel1.Location = new System.Drawing.Point(12, 44);
+            this.gunaLabel1.Location = new System.Drawing.Point(12, 47);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(111, 17);
             this.gunaLabel1.TabIndex = 10;
@@ -175,14 +175,13 @@
             this.gunaTileButton1.ForeColor = System.Drawing.Color.Black;
             this.gunaTileButton1.Image = null;
             this.gunaTileButton1.ImageSize = new System.Drawing.Size(52, 52);
-            this.gunaTileButton1.Location = new System.Drawing.Point(337, 44);
+            this.gunaTileButton1.Location = new System.Drawing.Point(347, 44);
             this.gunaTileButton1.Name = "gunaTileButton1";
             this.gunaTileButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaTileButton1.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaTileButton1.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaTileButton1.OnHoverImage = null;
             this.gunaTileButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaTileButton1.Radius = 4;
             this.gunaTileButton1.Size = new System.Drawing.Size(28, 23);
             this.gunaTileButton1.TabIndex = 12;
             this.gunaTileButton1.Text = "...";
@@ -297,7 +296,7 @@
             // 
             // xuiSuperButton1
             // 
-            this.xuiSuperButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(185)))), ((int)(((byte)(91)))));
+            this.xuiSuperButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.xuiSuperButton1.ButtonImage = ((System.Drawing.Image)(resources.GetObject("xuiSuperButton1.ButtonImage")));
             this.xuiSuperButton1.ButtonSmoothing = System.Drawing.Drawing2D.SmoothingMode.HighSpeed;
             this.xuiSuperButton1.ButtonStyle = XanderUI.XUISuperButton.Style.RoundedEdges;
@@ -305,7 +304,7 @@
             this.xuiSuperButton1.CornerRadius = 5;
             this.xuiSuperButton1.Font = new System.Drawing.Font("Century Gothic", 8.5F);
             this.xuiSuperButton1.Horizontal_Alignment = System.Drawing.StringAlignment.Center;
-            this.xuiSuperButton1.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(217)))), ((int)(((byte)(174)))));
+            this.xuiSuperButton1.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(185)))), ((int)(((byte)(91)))));
             this.xuiSuperButton1.HoverTextColor = System.Drawing.Color.White;
             this.xuiSuperButton1.ImagePosition = XanderUI.XUISuperButton.imgPosition.Left;
             this.xuiSuperButton1.Location = new System.Drawing.Point(315, 323);
